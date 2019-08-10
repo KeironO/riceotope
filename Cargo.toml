@@ -1,0 +1,13 @@
+[package]
+name = "riceotope"
+version = "0.1.0"
+authors = ["KeironO <keiron.oshea@gmail.com>"]
+edition = "2019"
+
+[lib]
+name = "riceotope"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
